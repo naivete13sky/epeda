@@ -60,3 +60,8 @@ class Gui_main(object):
         win_text_2=Method_improve_pywinauto.get_print_control_identifiers_text(win_text)
         result=Method_improve_pywinauto.get_title_of_object('RadioButton','title',win_text_2)
         return result
+
+    def get_top_module(win_text):
+        win_text_2=Method_improve_pywinauto.get_print_control_identifiers_text(win_text)
+        result=Method_improve_pywinauto.get_title_of_object('Static','title',win_text_2)
+        return result

@@ -70,10 +70,29 @@ def atest_one():
     # mouse.double_click(coords=Gui_main.get_save_coor(win))
     assert 1==1
 
-def test_group_box():
+def atest_group_box():
     app=RunConfig.epeda_driver
     win=app.get_win('Dialog')
     assert Gui_main.get_GroupBox_title(win) == ['工具', '数据', '向导', '制造端']
+
+def test_top_module():
+    app=RunConfig.epeda_driver
+    win=app.get_win('Dialog')
+    # print(top_module_drzl.print_control_identifiers())
+    # 导入资料
+    assert Gui_main.get_top_module(win['Custom9']) == ['导入资料', '支持gerber、odb++、ipc2581、eps等多种格式资料导入']
+    # EP-CAM
+    assert Gui_main.get_top_module(win['Custom10']) == ['EP-CAM', '快速进入EP-CAM基础软件']
+    # 前处理
+    assert Gui_main.get_top_module(win['Custom11']) == ['前处理', '图形资料报价和优化前的资料处理模块']
+    # CAM自动化
+    assert Gui_main.get_top_module(win['Custom12']) == ['CAM自动化', '实现优化功能自动化，包含一键优化和分步骤优化模块']
+    # 资料分析 DFM
+    assert Gui_main.get_top_module(win['Custom13']) == ['资料分析 DFM', '多层面解析资料，完整给出PCB相关参数或cam服务报价结果模块']
+    # 自动移孔功能
+    assert Gui_main.get_top_module(win['Custom14']) == ['自动移孔功能', 'ep-cam附带全部高级功能，可实现自动移孔，保证间距模块']
+
+
 
 
 
