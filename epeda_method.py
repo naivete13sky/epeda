@@ -29,7 +29,8 @@ class Connect_epeda(object):
         app_open=Desktop()
         win_open=app_open[start_directory.split("\\")[-1]]
         time.sleep(1)
-        mouse.double_click(coords=(2200, 215))
+        # mouse.double_click(coords=(2200, 215))#扩展屏
+        mouse.double_click(coords=(400, 250))  # 单屏
         time.sleep(10)#登录时间较长
         win = app_open['Dialog']
         # print(win.print_control_identifiers())
@@ -50,4 +51,12 @@ class Gui_main(object):
         coor_ok=Method_improve_pywinauto.get_coor_of_object('保存 Enter',win_text_2)
         return coor_ok
 
+    def get_GroupBox_coor(win_text):
+        win_text_2=Method_improve_pywinauto.get_print_control_identifiers_text(win_text)
+        coor_ok=Method_improve_pywinauto.get_coor_of_object('GroupBox',win_text_2)
+        return coor_ok
 
+    def get_GroupBox_title(win_text):
+        win_text_2=Method_improve_pywinauto.get_print_control_identifiers_text(win_text)
+        coor_ok=Method_improve_pywinauto.get_title_of_object('title',win_text_2)
+        return coor_ok

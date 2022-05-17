@@ -74,7 +74,12 @@ def test_two():
     app=RunConfig.epeda_driver
     win=app.get_win('Dialog')
     # print(win.print_control_identifiers())
-    time.sleep(12)
+    # time.sleep(12)
+    cc=Gui_main.get_GroupBox_coor(win)
+    print("*"*30,cc)
+
+    cc2=Gui_main.get_GroupBox_title(win)
+    print("*"*30,cc2)
 
 
     assert 1==1

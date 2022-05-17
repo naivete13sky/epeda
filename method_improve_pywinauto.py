@@ -63,3 +63,15 @@ class Method_improve_pywinauto(object):
         coor_file_h = int(tup_coor.split(",")[3][2:].replace(")","")) - 1
         return (coor_file_w, coor_file_h)
 
+    def get_title_of_object(text_wanted,text_from):
+        for tup in text_from:
+            i=tup[0].find(text_wanted)
+            if i>0:
+                pattern=re.compile(r'''(child_window\(title="工具",)''')
+                result=pattern.findall(tup[0])
+                tup_coor=result[0]
+                print("*"*30,tup_coor)
+        # coor_file_w = int(tup_coor.split(",")[0][2:]) + 1
+
+        # return (coor_file_w,coor_file_h)
+
