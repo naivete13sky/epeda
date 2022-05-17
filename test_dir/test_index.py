@@ -55,11 +55,11 @@ def atest_index(browser, base_url):
     # 主菜单第7个="加入我们"
     assert page.index_main_menu_result_7.text == "加入我们"
 
-def test_one():
+def atest_one():
     app=RunConfig.epeda_driver
     win=app.get_win('Dialog')
     # print(win.print_control_identifiers())
-    time.sleep(15)
+    time.sleep(5)
 
     # mouse.double_click(coords=Gui_main().get_close_coor())
     # win = app.get_top_win()
@@ -68,6 +68,15 @@ def test_one():
     # cc=Gui_main.get_save_coor(win)
     # print("*"*30,cc)
     # mouse.double_click(coords=Gui_main.get_save_coor(win))
+    assert 1==1
+
+def test_two():
+    app=RunConfig.epeda_driver
+    win=app.get_win('Dialog')
+    # print(win.print_control_identifiers())
+    time.sleep(12)
+
+
     assert 1==1
 
 

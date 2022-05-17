@@ -213,10 +213,13 @@ def epeda_close():
     yield epeda_driver
     win=epeda_driver.get_win('Dialog')
     mouse.double_click(coords=Gui_main().get_close_coor())
-    # mouse.double_click(coords=Gui_main.get_save_coor(win))
-    send_keys('{ENTER}')
+    try:
+        mouse.double_click(coords=Gui_main.get_save_coor(win))
+    except:
+        pass
+    # send_keys('{ENTER}')
 
-    time.sleep(1)
+    time.sleep(2)
     print("test end!")
 
     # win = app.get_top_win()
