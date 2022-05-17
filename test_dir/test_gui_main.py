@@ -70,18 +70,13 @@ def atest_one():
     # mouse.double_click(coords=Gui_main.get_save_coor(win))
     assert 1==1
 
-def test_two():
+def test_group_box():
     app=RunConfig.epeda_driver
     win=app.get_win('Dialog')
-    # print(win.print_control_identifiers())
-    # time.sleep(12)
-    cc=Gui_main.get_GroupBox_coor(win)
-    print("*"*30,cc)
-
-    cc2=Gui_main.get_GroupBox_title(win)
-    print("*"*30,cc2)
+    assert Gui_main.get_GroupBox_title(win) == ['工具', '数据', '向导', '制造端']
 
 
-    assert 1==1
+
+
 
 

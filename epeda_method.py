@@ -58,5 +58,5 @@ class Gui_main(object):
 
     def get_GroupBox_title(win_text):
         win_text_2=Method_improve_pywinauto.get_print_control_identifiers_text(win_text)
-        coor_ok=Method_improve_pywinauto.get_title_of_object('title',win_text_2)
-        return coor_ok
+        result=Method_improve_pywinauto.get_title_of_object('RadioButton','title',win_text_2)
+        return result
