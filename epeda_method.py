@@ -32,16 +32,22 @@ class Connect_epeda(object):
         mouse.double_click(coords=(2200, 215))
         time.sleep(10)#登录时间较长
         win = app_open['Dialog']
-        print(win.print_control_identifiers())
+        # print(win.print_control_identifiers())
         # print(win.process_id())
-        app_open2 = application.Application(backend='win32').connect(process=win.process_id())
-        win2=app_open2['Dialog']
-        print(win2.print_control_identifiers())
+        # app_open2 = application.Application(backend='win32').connect(process=win.process_id())
+        # win2=app_open2['Dialog']
+        # print(win2.print_control_identifiers())
         return win.process_id()
 
 
 
 class Gui_main(object):
-    def get_File_coor(win_text):
+    def get_close_coor(self):
+        return (1910, 10)
+
+    def get_save_coor(win_text):
         win_text_2=Method_improve_pywinauto.get_print_control_identifiers_text(win_text)
-        coor_ok=Method_improve_pywinauto.get_coor_of_object('File(F) Alt+F',win_text_2)
+        coor_ok=Method_improve_pywinauto.get_coor_of_object('保存 Enter',win_text_2)
+        return coor_ok
+
+

@@ -1,0 +1,34 @@
+Dialog - '退出提示'    (L773, T362, R1150, B623)
+['Dialog', '退出提示Dialog', '退出提示']
+child_window(title="退出提示", control_type="Window")
+   |
+   | TitleBar - ''    (L808, T365, R1139, B407)
+   | ['TitleBar']
+   |    |
+   |    | Menu - '系统'    (L784, T373, R817, B406)
+   |    | ['系统', 'Menu', '系统Menu', '系统0', '系统1']
+   |    | child_window(title="系统", auto_id="MenuBar", control_type="MenuBar")
+   |    |    |
+   |    |    | MenuItem - '系统'    (L784, T373, R817, B406)
+   |    |    | ['系统2', 'MenuItem', '系统MenuItem']
+   |    |    | child_window(title="系统", control_type="MenuItem")
+   |    |
+   |    | Button - '关闭'    (L1088, T363, R1140, B407)
+   |    | ['关闭', 'Button', '关闭Button', 'Button0', 'Button1']
+   |    | child_window(title="关闭", control_type="Button")
+   |
+   | Static - '是否保存当前料号'    (L800, T423, R1155, B564)
+   | ['Static', '是否保存当前料号Static', '是否保存当前料号']
+   | child_window(title="是否保存当前料号", control_type="Text")
+   |
+   | Button - '保存 Enter'    (L820, T573, R895, B596)
+   | ['保存 Enter', '保存 EnterButton', 'Button2']
+   | child_window(title="保存 Enter", control_type="Button")
+   |
+   | Button - '不保存'    (L924, T573, R999, B596)
+   | ['Button3', '不保存Button', '不保存']
+   | child_window(title="不保存", control_type="Button")
+   |
+   | Button - '取消'    (L1028, T573, R1103, B596)
+   | ['取消Button', '取消', 'Button4']
+   | child_window(title="取消", control_type="Button")

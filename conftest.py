@@ -1,4 +1,6 @@
 import os
+import time
+
 import pytest
 from py.xml import html
 from selenium import webdriver
@@ -7,6 +9,9 @@ from selenium.webdriver.chrome.options import Options as CH_Options
 from selenium.webdriver.firefox.options import Options as FF_Options
 from config import RunConfig
 from epeda_method import Connect_epeda
+from pywinauto import mouse
+from epeda_method import Gui_main
+from pywinauto.keyboard import send_keys
 
 # 项目目录配置
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -202,6 +207,19 @@ def epeda():
     RunConfig.epeda_driver=epeda_driver
     return epeda_driver
 
+#关闭EDA
+@pytest.fixture(scope='session',autouse=True)
+def epeda_close():
+    yield epeda_driver
+    win=epeda_driver.get_win('Dialog')
+    mouse.double_click(coords=Gui_main().get_close_coor())
+    # mouse.double_click(coords=Gui_main.get_save_coor(win))
+    send_keys('{ENTER}')
+
+    time.sleep(1)
+    print("test end!")
+
+    # win = app.get_top_win()
 
 
 

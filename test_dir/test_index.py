@@ -1,11 +1,12 @@
 import sys
-import json
+import json,time
 from time import sleep
 import pytest
 from os.path import dirname, abspath
 from config import RunConfig
 from pywinauto import mouse
 from pywinauto.keyboard import send_keys
+from epeda_method import Gui_main
 
 base_path = dirname(dirname(abspath(__file__)))
 sys.path.insert(0, base_path)
@@ -57,8 +58,16 @@ def atest_index(browser, base_url):
 def test_one():
     app=RunConfig.epeda_driver
     win=app.get_win('Dialog')
-    # print(win)
-    print(win.print_control_identifiers())
+    # print(win.print_control_identifiers())
+    time.sleep(15)
+
+    # mouse.double_click(coords=Gui_main().get_close_coor())
+    # win = app.get_top_win()
+    # # print(win.print_control_identifiers())
+    #
+    # cc=Gui_main.get_save_coor(win)
+    # print("*"*30,cc)
+    # mouse.double_click(coords=Gui_main.get_save_coor(win))
     assert 1==1
 
 
