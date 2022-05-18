@@ -12,6 +12,8 @@ from epeda_method import Connect_epeda
 from pywinauto import mouse
 from epeda_method import Gui_main
 from pywinauto.keyboard import send_keys
+from pywinauto.application import Application
+from pywinauto import application,mouse,Desktop
 
 # 项目目录配置
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -208,8 +210,8 @@ def epeda():
     return epeda_driver
 
 #关闭EDA
-@pytest.fixture(scope='session',autouse=True)
-def epeda_close():
+@pytest.fixture(scope='session',autouse=False)
+def epeda_close_1():
     yield epeda_driver
     win=epeda_driver.get_win('Dialog')
     mouse.double_click(coords=Gui_main().get_close_coor())
@@ -224,6 +226,32 @@ def epeda_close():
 
     # win = app.get_top_win()
 
+#关闭EDA
+@pytest.fixture(scope='session',autouse=True)
+def epeda_close():
+    yield epeda_driver
+    win = epeda_driver.get_win('Dialog')
+    app = Application(backend="win32").connect(path="explorer.exe")
+    sys_tray = app.window(class_name="Shell_TrayWnd")
+    eda_sys_icon = sys_tray.child_window(title="用户提示通知区域")
+    eda_sys_icon.click_input()
+    eda_sys_icon.right_click_input()
+    app = Desktop(backend='uia')
+    eda_right_menu = app.window(class_name='Qt5QWindowPopupDropShadowSaveBits')
+    eda_exit = eda_right_menu.child_window(title='退出')
+    eda_exit.click_input()
+
+    try:
+        eda_exit_confirm = epeda_driver.get_win('Dialog')
+        eda_exit_confirm_save = eda_exit_confirm.child_window(title='保存')
+        eda_exit_confirm_save.click_input()
+    except:
+        pass
+
+    time.sleep(2)
+    print("test end!")
+
+    # win = app.get_top_win()
 
 
 if __name__ == "__main__":

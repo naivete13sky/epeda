@@ -1,0 +1,118 @@
+Pane - '任务栏'    (L0, T1008, R1920, B1080)
+['Pane', '任务栏', '任务栏Pane', 'Pane0', 'Pane1']
+child_window(title="任务栏", control_type="Pane")
+   |
+   | Pane - ''    (L1476, T1008, R1920, B1080)
+   | ['Pane2']
+   | child_window(auto_id="303", control_type="Pane")
+   |    |
+   |    | Button - '通知 V 形'    (L1476, T1008, R1524, B1080)
+   |    | ['通知 V 形', 'Button', '通知 V 形Button', 'Button0', 'Button1']
+   |    | child_window(title="通知 V 形", auto_id="1502", control_type="Button")
+   |    |
+   |    | Pane - ''    (L1524, T1008, R1572, B1080)
+   |    | ['Pane3']
+   |    |    |
+   |    |    | Toolbar - '用户提示通知区域'    (L1524, T1008, R1572, B1080)
+   |    |    | ['用户提示通知区域', '用户提示通知区域Toolbar', 'Toolbar']
+   |    |    | child_window(title="用户提示通知区域", auto_id="1504", control_type="ToolBar")
+   |    |    |    |
+   |    |    |    | Button - ''    (L1524, T1008, R1572, B1080)
+   |    |    |    | ['Button2']
+   |    |
+   |    | Pane - ''    (L1476, T1008, R1772, B1056)
+   |    | ['Pane4']
+   |    |    |
+   |    |    | Button - '“托盘输入指示器”按钮'    (L1572, T1008, R1620, B1080)
+   |    |    | ['Button3', '“托盘输入指示器”按钮', '“托盘输入指示器”按钮Button', '“托盘输入指示器”按钮0', '“托盘输入指示器”按钮1', '“托盘输入指示器”按钮Button0', '“托盘输入指示器”按钮Button1']
+   |    |    | child_window(title="“托盘输入指示器”按钮", auto_id="SystemTrayIcon", control_type="Button")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1584, T1032, R1608, B1056)
+   |    |    |    | ['Image', 'Image0', 'Image1']
+   |    |    |
+   |    |    | Button - '“托盘输入指示器”按钮'    (L1620, T1008, R1686, B1080)
+   |    |    | ['Button4', '“托盘输入指示器”按钮2', '“托盘输入指示器”按钮Button2']
+   |    |    | child_window(title="“托盘输入指示器”按钮", auto_id="SystemTrayIcon", control_type="Button")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1641, T1032, R1665, B1056)
+   |    |    |    | ['Image2']
+   |    |    |
+   |    |    | Button - '“系统网络状态”按钮 EP-Wifi_5G 2\nInternet 访问\n\nVMware Network Adapter VMnet8\n无法访问 Internet\n\nVMware Network Adapter VMnet1\n无法访问 Internet'    (L1686, T1008, R1728, B1080)
+   |    |    | ['“系统网络状态”按钮 EP-Wifi_5G 2\nInternet 访问\n\nVMware Network Adapter VMnet8\n无法访问 Internet\n\nVMware Network Adapter VMnet1\n无法访问 Internet', 'Button5', '“系统网络状态”按钮 EP-Wifi_5G 2\nInternet 访问\n\nVMware Network Adapter VMnet8\n无法访问 Internet\n\nVMware Network Adapter VMnet1\n无法访问 InternetButton']
+   |    |    | child_window(title="“系统网络状态”按钮 EP-Wifi_5G 2\nInternet 访问\n\nVMware Network Adapter VMnet8\n无法访问 Internet\n\nVMware Network Adapter VMnet1\n无法访问 Internet", auto_id="SystemTrayIcon", control_type="Button")
+   |    |    |
+   |    |    | Button - '“系统音量状态”按钮 扬声器 (Realtek(R) Audio): 已静音'    (L1728, T1008, R1764, B1080)
+   |    |    | ['“系统音量状态”按钮 扬声器 (Realtek(R) Audio): 已静音Button', 'Button6', '“系统音量状态”按钮 扬声器 (Realtek(R) Audio): 已静音']
+   |    |    | child_window(title="“系统音量状态”按钮 扬声器 (Realtek(R) Audio): 已静音", auto_id="SystemTrayIcon", control_type="Button")
+   |    |    |
+   |    |    | Button - '“系统电源状态”按钮 电池状态: 已充满 100%'    (L1764, T1008, R1806, B1080)
+   |    |    | ['Button7', '“系统电源状态”按钮 电池状态: 已充满 100%Button', '“系统电源状态”按钮 电池状态: 已充满 100%']
+   |    |    | child_window(title="“系统电源状态”按钮 电池状态: 已充满 100%", auto_id="SystemTrayIcon", control_type="Button")
+   |    |    |
+   |    |    | Button - '“系统时钟”按钮 11:26\n‎2022/‎5/‎18'    (L1806, T1008, R1902, B1080)
+   |    |    | ['Button8', '“系统时钟”按钮 11:26\n\u200e2022/\u200e5/\u200e18Button', '“系统时钟”按钮 11:26\n\u200e2022/\u200e5/\u200e18']
+   |    |    | child_window(title="“系统时钟”按钮 11:26\n‎2022/‎5/‎18", auto_id="SystemTrayIcon", control_type="Button")
+   |    |    |
+   |    |    | Button - '“显示桌面”按钮 显示桌面'    (L1902, T1008, R1920, B1080)
+   |    |    | ['Button9', '“显示桌面”按钮 显示桌面Button', '“显示桌面”按钮 显示桌面']
+   |    |    | child_window(title="“显示桌面”按钮 显示桌面", auto_id="SystemTrayIcon", control_type="Button")
+   |
+   | Pane - ''    (L0, T1008, R1280, B1056)
+   | ['Pane5']
+   |    |
+   |    | Button - '开始'    (L563, T1009, R631, B1080)
+   |    | ['Button10', '开始Button', '开始']
+   |    | child_window(title="开始", auto_id="StartButton", control_type="Button")
+   |    |    |
+   |    |    | Image - ''    (L580, T1027, R616, B1063)
+   |    |    | ['Image3']
+   |    |    | child_window(auto_id="Icon", control_type="Image")
+   |    |
+   |    | Button - '搜索'    (L631, T1009, R697, B1080)
+   |    | ['Button11', '搜索Button', '搜索']
+   |    | child_window(title="搜索", auto_id="SearchButton", control_type="Button")
+   |    |    |
+   |    |    | Image - ''    (L646, T1027, R682, B1063)
+   |    |    | ['Image4']
+   |    |    | child_window(auto_id="Icon", control_type="Image")
+   |    |
+   |    | Button - 'Everything'    (L697, T1009, R763, B1080)
+   |    | ['Button12', 'EverythingButton', 'Everything']
+   |    | child_window(title="Everything", auto_id="{6D809377-6AF0-444B-8957-A3773F02200E}\Everything-1.4.1.996.x64\Everything.exe", control_type="Button")
+   |    |
+   |    | Button - '文件资源管理器 - 2 个运行窗口'    (L763, T1009, R828, B1080)
+   |    | ['Button13', '文件资源管理器 - 2 个运行窗口', '文件资源管理器 - 2 个运行窗口Button']
+   |    | child_window(title="文件资源管理器 - 2 个运行窗口", auto_id="Microsoft.Windows.Explorer", control_type="Button")
+   |    |
+   |    | Button - '360极速浏览器 - 1 个运行窗口'    (L829, T1009, R895, B1080)
+   |    | ['Button14', '360极速浏览器 - 1 个运行窗口', '360极速浏览器 - 1 个运行窗口Button']
+   |    | child_window(title="360极速浏览器 - 1 个运行窗口", auto_id="360Chrome", control_type="Button")
+   |    |
+   |    | Button - 'Foxmail - 1 个运行窗口'    (L895, T1009, R961, B1080)
+   |    | ['Button15', 'Foxmail - 1 个运行窗口Button', 'Foxmail - 1 个运行窗口']
+   |    | child_window(title="Foxmail - 1 个运行窗口", auto_id="C:\Foxmail 7.2\Foxmail.exe", control_type="Button")
+   |    |
+   |    | Button - '微信 - 1 个运行窗口'    (L961, T1009, R1027, B1080)
+   |    | ['微信 - 1 个运行窗口Button', 'Button16', '微信 - 1 个运行窗口']
+   |    | child_window(title="微信 - 1 个运行窗口", auto_id="{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\Tencent\WeChat\WeChat.exe", control_type="Button")
+   |    |
+   |    | Button - '钉钉 - 1 个运行窗口'    (L1027, T1009, R1093, B1080)
+   |    | ['Button17', '钉钉 - 1 个运行窗口Button', '钉钉 - 1 个运行窗口']
+   |    | child_window(title="钉钉 - 1 个运行窗口", auto_id="ali.dingtalk.release", control_type="Button")
+   |    |
+   |    | Button - 'PyCharm 2020.3.2 - 1 个运行窗口'    (L1093, T1009, R1159, B1080)
+   |    | ['Button18', 'PyCharm 2020.3.2 - 1 个运行窗口Button', 'PyCharm 2020.3.2 - 1 个运行窗口']
+   |    | child_window(title="PyCharm 2020.3.2 - 1 个运行窗口", auto_id="{6D809377-6AF0-444B-8957-A3773F02200E}\JetBrains\PyCharm 2020.3.2\bin\pycharm64.exe", control_type="Button")
+   |    |
+   |    | Button - 'Excel - 1 个运行窗口'    (L1159, T1009, R1225, B1080)
+   |    | ['Button19', 'Excel - 1 个运行窗口Button', 'Excel - 1 个运行窗口']
+   |    | child_window(title="Excel - 1 个运行窗口", auto_id="Microsoft.Office.EXCEL.EXE.15", control_type="Button")
+   |    |
+   |    | Button - 'inspect - 1 个运行窗口'    (L1225, T1009, R1291, B1080)
+   |    | ['Button20', 'inspect - 1 个运行窗口', 'inspect - 1 个运行窗口Button']
+   |    | child_window(title="inspect - 1 个运行窗口", auto_id="C:\cc\software\inspect\inspect.exe", control_type="Button")
+   |    |
+   |    | Button - '任务管理器 - 1 个运行窗口'    (L1291, T1009, R1357, B1080)
+   |    | ['Button21', '任务管理器 - 1 个运行窗口Button', '任务管理器 - 1 个运行窗口']
+   |    | child_window(title="任务管理器 - 1 个运行窗口", auto_id="Microsoft.AutoGenerated.{D8702A88-1B06-781E-6205-9AB298688F46}", control_type="Button")
+None

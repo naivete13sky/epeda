@@ -1,0 +1,22 @@
+Menu - ''    (L1542, T943, R1703, B1044)
+['Menu']
+   |
+   | MenuItem - '打开主面板'    (L1546, T947, R1698, B978)
+   | ['打开主面板MenuItem', '打开主面板', 'MenuItem', 'MenuItem0', 'MenuItem1']
+   | child_window(title="打开主面板", control_type="MenuItem")
+   |
+   | MenuItem - '注销'    (L1546, T978, R1698, B1009)
+   | ['注销MenuItem', '注销', 'MenuItem2']
+   | child_window(title="注销", control_type="MenuItem")
+   |
+   | MenuItem - '退出'    (L1546, T1009, R1698, B1040)
+   | ['退出', '退出MenuItem', 'MenuItem3']
+   | child_window(title="退出", control_type="MenuItem")
+
+
+
+
+
+app=Desktop(backend='uia')
+eda_exit=app.window(class_name='Qt5QWindowPopupDropShadowSaveBits')
+print(eda_exit.print_control_identifiers())
