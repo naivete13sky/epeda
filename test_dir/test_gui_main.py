@@ -100,4 +100,15 @@ def test_top_module():
     win.child_window(title="自动移孔功能").click_input()
 
 
+def atest_input_pre_check():
+    app=RunConfig.epeda_driver
+    win=app.get_win('Dialog')
+    # print(top_module_drzl.print_control_identifiers())
+    # win.child_window(title="导入与预审").click_input()
 
+    # win.child_window(title="导入资料").click_input()
+    # win.child_window(title="EP-CAM").click_input()
+    # win.child_window(title="前处理").click_input()
+    # win.child_window(title="CAM自动化").click_input()
+    # win.child_window(title="资料分析 DFM").click_input()
+    # win.child_window(title="自动移孔功能").click_input()

@@ -234,12 +234,21 @@ def epeda_close():
     app = Application(backend="win32").connect(path="explorer.exe")
     sys_tray = app.window(class_name="Shell_TrayWnd")
     eda_sys_icon = sys_tray.child_window(title="用户提示通知区域")
-    eda_sys_icon.click_input()
-    eda_sys_icon.right_click_input()
-    app = Desktop(backend='uia')
-    eda_right_menu = app.window(class_name='Qt5QWindowPopupDropShadowSaveBits')
-    eda_exit = eda_right_menu.child_window(title='退出')
-    eda_exit.click_input()
+    #优先通过系统托盘退出，不行再通过点击右上角的X号来关闭
+    try:
+        eda_sys_icon.click_input()
+        eda_sys_icon.right_click_input()
+        app = Desktop(backend='uia')
+        eda_right_menu = app.window(class_name='Qt5QWindowPopupDropShadowSaveBits')
+        eda_exit = eda_right_menu.child_window(title='退出')
+        eda_exit.click_input()
+    except:
+        pass
+        mouse.double_click(coords=Gui_main().get_close_coor())
+        try:
+            mouse.double_click(coords=Gui_main.get_save_coor(win))
+        except:
+            pass
 
     try:
         eda_exit_confirm = epeda_driver.get_win('Dialog')
