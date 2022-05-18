@@ -1,3 +1,5 @@
+import os
+
 from pywinauto import application,mouse,Desktop
 from pywinauto.keyboard import send_keys
 import time
@@ -22,8 +24,8 @@ class Connect_epeda(object):
         app=application.Application(backend='uia').connect(process=processid)
         return app[title]
 
-    #通过单击程序实现启动
-    def get_process_id_epeda(epeda_dir):
+    #通过单击程序实现启动,
+    def get_process_id_epeda_1(epeda_dir):
         start_directory=epeda_dir
         app_open=application.Application().start("explorer.exe %s" % start_directory)
         app_open=Desktop()
@@ -40,7 +42,18 @@ class Connect_epeda(object):
         # print(win2.print_control_identifiers())
         return win.process_id()
 
-
+    # 通过cmd程序实现启动
+    def get_process_id_epeda(epeda_dir):
+        os.system(r'''cd C:\EPSemicon\EDA_TEST & start C:\EPSemicon\EDA_TEST\EPEDA.exe''')
+        time.sleep(10)  # 登录时间较长
+        app_open = Desktop()
+        win = app_open['Dialog']
+        # print(win.print_control_identifiers())
+        # print(win.process_id())
+        # app_open2 = application.Application(backend='win32').connect(process=win.process_id())
+        # win2=app_open2['Dialog']
+        # print(win2.print_control_identifiers())
+        return win.process_id()
 
 class Gui_main(object):
     def get_close_coor(self):
