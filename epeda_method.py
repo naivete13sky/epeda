@@ -44,7 +44,7 @@ class Connect_epeda(object):
 
     # 通过cmd程序实现启动
     def get_process_id_epeda(epeda_dir):
-        os.system(r'''cd C:\EPSemicon\EDA_TEST & start C:\EPSemicon\EDA_TEST\EPEDA.exe''')
+        os.system(r'''cd {} & start {}\EPEDA.exe'''.format(epeda_dir,epeda_dir))
         time.sleep(10)  # 登录时间较长
         app_open = Desktop()
         win = app_open['Dialog']

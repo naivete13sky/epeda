@@ -6,4 +6,7 @@ import os,sys
 cmd=r'''cd C:\EPSemicon\EDA_TEST & start C:\EPSemicon\EDA_TEST\EPEDA.exe'''
 os.system(cmd)
 
+path=r'C:\EPSemicon\EDA_TEST'
+cmd=r'''cd {} & start C:\EPSemicon\EDA_TEST\EPEDA.exe'''.format(path)
 
+print(cmd)

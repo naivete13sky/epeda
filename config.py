@@ -13,7 +13,7 @@ class RunConfig:
 
     epeda_driver_type='epeda'
     # epeda_path=r'C:\EPSemicon\EDA_TEST'
-    epeda_path=r'C:\EPSemicon\EDA_TEST\cc'
+    epeda_path=r'C:\EPSemicon\EDA_TEST'
     epeda_driver=None
 
     # 配置运行的 URL
