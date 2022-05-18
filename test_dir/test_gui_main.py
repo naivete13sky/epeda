@@ -92,10 +92,12 @@ def test_top_module():
     # 自动移孔功能
     assert Gui_main.get_top_module(win['Custom14']) == ['自动移孔功能', 'ep-cam附带全部高级功能，可实现自动移孔，保证间距模块']
 
-
-
-
-
+    win.child_window(title="导入资料").click_input()
+    win.child_window(title="EP-CAM").click_input()
+    win.child_window(title="前处理").click_input()
+    win.child_window(title="CAM自动化").click_input()
+    win.child_window(title="资料分析 DFM").click_input()
+    win.child_window(title="自动移孔功能").click_input()
 
 
 
