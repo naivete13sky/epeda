@@ -1,0 +1,449 @@
+Pane - 'Dialog'    (L1634, T0, R1920, B716)
+['Dialog', 'DialogPane', 'Pane', 'Pane0', 'Pane1']
+child_window(title="Dialog", control_type="Pane")
+   |
+   | Static - ''    (L1634, T0, R1920, B151)
+   | ['敬请试用。Static', 'Static', 'Static0', 'Static1']
+   |
+   | GroupBox - ''    (L1634, T155, R1920, B205)
+   | ['敬请试用。GroupBox', 'GroupBox']
+   |    |
+   |    | RadioButton - '工具'    (L1635, T156, R1729, B203)
+   |    | ['工具', 'RadioButton', '工具RadioButton', 'RadioButton0', 'RadioButton1']
+   |    | child_window(title="工具", control_type="RadioButton")
+   |    |
+   |    | RadioButton - '数据'    (L1729, T156, R1823, B203)
+   |    | ['RadioButton2', '数据RadioButton', '数据']
+   |    | child_window(title="数据", control_type="RadioButton")
+   |    |
+   |    | RadioButton - '向导'    (L1823, T156, R1918, B203)
+   |    | ['向导RadioButton', 'RadioButton3', '向导']
+   |    | child_window(title="向导", control_type="RadioButton")
+   |
+   | Pane - ''    (L1634, T202, R1935, B643)
+   | ['Pane2', '敬请试用。Pane']
+   |    |
+   |    | Custom - ''    (L1634, T202, R1935, B643)
+   |    | ['Custom', '敬请试用。Custom', 'Custom0', 'Custom1']
+   |    |    |
+   |    |    | Pane - ''    (L1634, T204, R1925, B635)
+   |    |    | ['Pane3', '置顶功能Pane']
+   |    |    |    |
+   |    |    |    | Custom - ''    (L1634, T204, R1925, B635)
+   |    |    |    | ['Custom2', '置顶功能Custom', '置顶功能Custom0', '置顶功能Custom1']
+   |    |    |    |    |
+   |    |    |    |    | Custom - ''    (L1634, T234, R1915, B635)
+   |    |    |    |    | ['Custom3', '置顶功能Custom2']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Custom - ''    (L1634, T234, R1915, B635)
+   |    |    |    |    |    | ['Custom4', '置顶功能Custom3']
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Custom - ''    (L1634, T234, R1904, B635)
+   |    |    |    |    |    |    | ['Custom5', '置顶功能Custom4']
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | Custom - ''    (L1634, T234, R1904, B1024)
+   |    |    |    |    |    |    |    | ['Custom6', '置顶功能Custom5']
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T234, R1904, B564)
+   |    |    |    |    |    |    |    |    | ['Custom7', '置顶功能Custom6']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T241, R1904, B271)
+   |    |    |    |    |    |    |    |    |    | ['Custom8', '置顶功能Custom7']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1639, T246, R1668, B266)
+   |    |    |    |    |    |    |    |    |    |    | ['Static2', '请试用。Static']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '置顶功能'    (L1671, T246, R1899, B266)
+   |    |    |    |    |    |    |    |    |    |    | ['Static3', '置顶功能Static', '置顶功能', '置顶功能Static0', '置顶功能Static1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="置顶功能", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T269, R1904, B319)
+   |    |    |    |    |    |    |    |    |    | ['Custom9', '置顶功能Custom8']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1637, T274, R1642, B314)
+   |    |    |    |    |    |    |    |    |    |    | ['Static4']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1651, T274, R1701, B314)
+   |    |    |    |    |    |    |    |    |    |    | ['置顶功能Static2', 'Static5']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '导入资料'    (L1710, T272, R1980, B294)
+   |    |    |    |    |    |    |    |    |    |    | ['导入资料Static', '导入资料', 'Static6', '导入资料Static0', '导入资料Static1', '导入资料0', '导入资料1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="导入资料", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '支持gerber、odb++、ipc2581、eps等多种格式资料导入'    (L1710, T294, R2310, B316)
+   |    |    |    |    |    |    |    |    |    |    | ['支持gerber、odb++、ipc2581、eps等多种格式资料导入', '支持gerber、odb++、ipc2581、eps等多种格式资料导入Static', 'Static7', '支持gerber、odb++、ipc2581、eps等多种格式资料导入0', '支持gerber、odb++、ipc2581、eps等多种格式资料导入1', '支持gerber、odb++、ipc2581、eps等多种格式资料导入Static0', '支持gerber、odb++、ipc2581、eps等多种格式资料导入Static1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="支持gerber、odb++、ipc2581、eps等多种格式资料导入", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - ''    (L1881, T273, R1901, B293)
+   |    |    |    |    |    |    |    |    |    |    | ['置顶功能Button', 'Button', '置顶功能Button0', '置顶功能Button1', 'Button0', 'Button1']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T319, R1904, B369)
+   |    |    |    |    |    |    |    |    |    | ['Custom10', '支持gerber、odb++、ipc2581、eps等多种格式资料导入Custom']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1637, T324, R1642, B364)
+   |    |    |    |    |    |    |    |    |    |    | ['Static8']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1651, T324, R1701, B364)
+   |    |    |    |    |    |    |    |    |    |    | ['置顶功能Static3', 'Static9']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - 'EP-CAM'    (L1710, T322, R1980, B344)
+   |    |    |    |    |    |    |    |    |    |    | ['EP-CAMStatic', 'Static10', 'EP-CAM']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="EP-CAM", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '快速进入EP-CAM基础软件'    (L1710, T344, R2310, B366)
+   |    |    |    |    |    |    |    |    |    |    | ['快速进入EP-CAM基础软件Static', 'Static11', '快速进入EP-CAM基础软件']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="快速进入EP-CAM基础软件", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - ''    (L1881, T323, R1901, B343)
+   |    |    |    |    |    |    |    |    |    |    | ['置顶功能Button2', 'Button2']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T369, R1904, B419)
+   |    |    |    |    |    |    |    |    |    | ['Custom11', '快速进入EP-CAM基础软件Custom']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1637, T374, R1642, B414)
+   |    |    |    |    |    |    |    |    |    |    | ['Static12']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1651, T374, R1701, B414)
+   |    |    |    |    |    |    |    |    |    |    | ['置顶功能Static4', 'Static13']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '前处理'    (L1710, T372, R1980, B394)
+   |    |    |    |    |    |    |    |    |    |    | ['前处理Static', 'Static14', '前处理', '前处理Static0', '前处理Static1', '前处理0', '前处理1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="前处理", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '图形资料报价和优化前的资料处理模块'    (L1710, T394, R2310, B416)
+   |    |    |    |    |    |    |    |    |    |    | ['图形资料报价和优化前的资料处理模块', 'Static15', '图形资料报价和优化前的资料处理模块Static', '图形资料报价和优化前的资料处理模块0', '图形资料报价和优化前的资料处理模块1', '图形资料报价和优化前的资料处理模块Static0', '图形资料报价和优化前的资料处理模块Static1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="图形资料报价和优化前的资料处理模块", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - ''    (L1881, T373, R1901, B393)
+   |    |    |    |    |    |    |    |    |    |    | ['前处理Button', 'Button3']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T419, R1904, B469)
+   |    |    |    |    |    |    |    |    |    | ['Custom12', '图形资料报价和优化前的资料处理模块Custom']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1637, T424, R1642, B464)
+   |    |    |    |    |    |    |    |    |    |    | ['Static16']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1651, T424, R1701, B464)
+   |    |    |    |    |    |    |    |    |    |    | ['置顶功能Static5', 'Static17']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - 'CAM自动化'    (L1710, T422, R1980, B444)
+   |    |    |    |    |    |    |    |    |    |    | ['CAM自动化', 'CAM自动化Static', 'Static18']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="CAM自动化", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '实现优化功能自动化，包含一键优化和分步骤优化模块'    (L1710, T444, R2310, B466)
+   |    |    |    |    |    |    |    |    |    |    | ['实现优化功能自动化，包含一键优化和分步骤优化模块', '实现优化功能自动化，包含一键优化和分步骤优化模块Static', 'Static19']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="实现优化功能自动化，包含一键优化和分步骤优化模块", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - ''    (L1881, T423, R1901, B443)
+   |    |    |    |    |    |    |    |    |    |    | ['CAM自动化Button', 'Button4']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T469, R1904, B519)
+   |    |    |    |    |    |    |    |    |    | ['Custom13', '实现优化功能自动化，包含一键优化和分步骤优化模块Custom']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1637, T474, R1642, B514)
+   |    |    |    |    |    |    |    |    |    |    | ['Static20']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1651, T474, R1701, B514)
+   |    |    |    |    |    |    |    |    |    |    | ['置顶功能Static6', 'Static21']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '资料分析 DFM'    (L1710, T472, R1980, B494)
+   |    |    |    |    |    |    |    |    |    |    | ['资料分析 DFM', 'Static22', '资料分析 DFMStatic']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="资料分析 DFM", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '多层面解析资料，完整给出PCB相关参数或cam服务报价结果模块'    (L1710, T494, R2310, B516)
+   |    |    |    |    |    |    |    |    |    |    | ['多层面解析资料，完整给出PCB相关参数或cam服务报价结果模块Static', '多层面解析资料，完整给出PCB相关参数或cam服务报价结果模块', 'Static23']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="多层面解析资料，完整给出PCB相关参数或cam服务报价结果模块", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - ''    (L1881, T473, R1901, B493)
+   |    |    |    |    |    |    |    |    |    |    | ['资料分析 DFMButton', 'Button5']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T519, R1904, B569)
+   |    |    |    |    |    |    |    |    |    | ['Custom14', '多层面解析资料，完整给出PCB相关参数或cam服务报价结果模块Custom']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1637, T524, R1642, B564)
+   |    |    |    |    |    |    |    |    |    |    | ['Static24']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1651, T524, R1701, B564)
+   |    |    |    |    |    |    |    |    |    |    | ['置顶功能Static7', 'Static25']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '自动移孔功能'    (L1710, T522, R1980, B544)
+   |    |    |    |    |    |    |    |    |    |    | ['自动移孔功能Static', '自动移孔功能', 'Static26']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="自动移孔功能", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - 'ep-cam附带全部高级功能，可实现自动移孔，保证间距模块'    (L1710, T544, R2310, B566)
+   |    |    |    |    |    |    |    |    |    |    | ['Static27', 'ep-cam附带全部高级功能，可实现自动移孔，保证间距模块', 'ep-cam附带全部高级功能，可实现自动移孔，保证间距模块Static']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="ep-cam附带全部高级功能，可实现自动移孔，保证间距模块", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - ''    (L1881, T523, R1901, B543)
+   |    |    |    |    |    |    |    |    |    |    | ['Button6', '自动移孔功能Button']
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T564, R1904, B744)
+   |    |    |    |    |    |    |    |    | ['Custom15', '导入与预审Custom', '导入与预审Custom0', '导入与预审Custom1']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T571, R1904, B601)
+   |    |    |    |    |    |    |    |    |    | ['Custom16', '导入与预审Custom2']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1639, T576, R1668, B596)
+   |    |    |    |    |    |    |    |    |    |    | ['试用。Static', 'Static28']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '导入与预审'    (L1671, T576, R1899, B596)
+   |    |    |    |    |    |    |    |    |    |    | ['导入与预审', 'Static29', '导入与预审Static', '导入与预审Static0', '导入与预审Static1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="导入与预审", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T599, R1904, B649)
+   |    |    |    |    |    |    |    |    |    | ['Custom17', '导入与预审Custom3']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1637, T604, R1642, B644)
+   |    |    |    |    |    |    |    |    |    |    | ['Static30', '当前厂规:Static', '当前厂规:Static0', '当前厂规:Static1']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1651, T604, R1701, B644)
+   |    |    |    |    |    |    |    |    |    |    | ['Static31', '导入与预审Static2']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '导入资料'    (L1710, T602, R1980, B624)
+   |    |    |    |    |    |    |    |    |    |    | ['导入资料Static2', '导入资料2', 'Static32']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="导入资料", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '支持gerber、odb++、ipc2581、eps等多种格式资料导入'    (L1710, T624, R2310, B646)
+   |    |    |    |    |    |    |    |    |    |    | ['支持gerber、odb++、ipc2581、eps等多种格式资料导入2', '支持gerber、odb++、ipc2581、eps等多种格式资料导入Static2', 'Static33']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="支持gerber、odb++、ipc2581、eps等多种格式资料导入", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - ''    (L1881, T603, R1901, B623)
+   |    |    |    |    |    |    |    |    |    |    | ['Button7', '导入与预审Button', '导入与预审Button0', '导入与预审Button1']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T649, R1904, B699)
+   |    |    |    |    |    |    |    |    |    | ['当前厂规:Custom', 'Custom18']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1637, T654, R1642, B694)
+   |    |    |    |    |    |    |    |    |    |    | ['Static34', '当前厂规:Static2']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1651, T654, R1701, B694)
+   |    |    |    |    |    |    |    |    |    |    | ['Static35', '当前厂规:Static3']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '前处理'    (L1710, T652, R1980, B674)
+   |    |    |    |    |    |    |    |    |    |    | ['前处理Static2', 'Static36', '前处理2']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="前处理", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '图形资料报价和优化前的资料处理模块'    (L1710, T674, R2310, B696)
+   |    |    |    |    |    |    |    |    |    |    | ['图形资料报价和优化前的资料处理模块2', 'Static37', '图形资料报价和优化前的资料处理模块Static2']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="图形资料报价和优化前的资料处理模块", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - ''    (L1881, T653, R1901, B673)
+   |    |    |    |    |    |    |    |    |    |    | ['Button8', '导入与预审Button2']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T699, R1904, B749)
+   |    |    |    |    |    |    |    |    |    | ['Custom19', '当前料号:Custom', '当前料号:Custom0', '当前料号:Custom1']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1637, T704, R1642, B744)
+   |    |    |    |    |    |    |    |    |    |    | ['当前料号:Static', 'Static38', '当前料号:Static0', '当前料号:Static1']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1651, T704, R1701, B744)
+   |    |    |    |    |    |    |    |    |    |    | ['Static39', '抢单Static', '抢单Static0', '抢单Static1']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '转图比对'    (L1710, T702, R1980, B724)
+   |    |    |    |    |    |    |    |    |    |    | ['转图比对Static', 'Static40', '转图比对']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="转图比对", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '与第三方软件导入原稿图形自动比对，确保资料正确性模块'    (L1710, T724, R2310, B746)
+   |    |    |    |    |    |    |    |    |    |    | ['与第三方软件导入原稿图形自动比对，确保资料正确性模块Static', 'Static41', '与第三方软件导入原稿图形自动比对，确保资料正确性模块']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="与第三方软件导入原稿图形自动比对，确保资料正确性模块", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - ''    (L1881, T703, R1901, B723)
+   |    |    |    |    |    |    |    |    |    |    | ['论坛Button', 'Button9']
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T744, R1904, B774)
+   |    |    |    |    |    |    |    |    | ['Custom20', '当前料号:Custom2']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T751, R1904, B781)
+   |    |    |    |    |    |    |    |    |    | ['Custom21', '当前料号:Custom3']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1639, T756, R1668, B776)
+   |    |    |    |    |    |    |    |    |    |    | ['Static42', '抢单Static2']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - 'MI工具'    (L1671, T756, R1899, B776)
+   |    |    |    |    |    |    |    |    |    |    | ['MI工具', 'Static43', 'MI工具Static']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="MI工具", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T774, R1904, B804)
+   |    |    |    |    |    |    |    |    | ['Custom22', '当前料号:Custom4']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T781, R1904, B811)
+   |    |    |    |    |    |    |    |    |    | ['Custom23', '当前料号:Custom5']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1639, T786, R1668, B806)
+   |    |    |    |    |    |    |    |    |    |    | ['Static44', '抢单Static3']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '制造规则检查'    (L1671, T786, R1899, B806)
+   |    |    |    |    |    |    |    |    |    |    | ['制造规则检查Static', '制造规则检查', 'Static45']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="制造规则检查", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T804, R1904, B834)
+   |    |    |    |    |    |    |    |    | ['Custom24', '当前料号:Custom6']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T811, R1904, B841)
+   |    |    |    |    |    |    |    |    |    | ['Custom25', '当前料号:Custom7']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1639, T816, R1668, B836)
+   |    |    |    |    |    |    |    |    |    |    | ['Static46', '抢单Static4']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '资料制作'    (L1671, T816, R1899, B836)
+   |    |    |    |    |    |    |    |    |    |    | ['资料制作Static', 'Static47', '资料制作']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="资料制作", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T834, R1904, B864)
+   |    |    |    |    |    |    |    |    | ['Custom26', '当前料号:Custom8']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T841, R1904, B871)
+   |    |    |    |    |    |    |    |    |    | ['Custom27', '当前料号:Custom9']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1639, T846, R1668, B866)
+   |    |    |    |    |    |    |    |    |    |    | ['Static48', '抢单Static5']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '导出'    (L1671, T846, R1899, B866)
+   |    |    |    |    |    |    |    |    |    |    | ['导出', 'Static49', '导出Static']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="导出", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T864, R1904, B894)
+   |    |    |    |    |    |    |    |    | ['Custom28', '当前料号:Custom10']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T871, R1904, B901)
+   |    |    |    |    |    |    |    |    |    | ['Custom29', '当前料号:Custom11']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1639, T876, R1668, B896)
+   |    |    |    |    |    |    |    |    |    |    | ['Static50', '抢单Static6']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '批量云处理'    (L1671, T876, R1899, B896)
+   |    |    |    |    |    |    |    |    |    |    | ['批量云处理Static', '批量云处理', 'Static51']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="批量云处理", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T894, R1904, B924)
+   |    |    |    |    |    |    |    |    | ['Custom30', '当前料号:Custom12']
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T901, R1904, B931)
+   |    |    |    |    |    |    |    |    |    | ['Custom31', '当前料号:Custom13']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1639, T906, R1668, B926)
+   |    |    |    |    |    |    |    |    |    |    | ['Static52', '抢单Static7']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Static - '收费细则'    (L1671, T906, R1899, B926)
+   |    |    |    |    |    |    |    |    |    |    | ['收费细则', 'Static53', '收费细则Static']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="收费细则", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Custom - ''    (L1634, T924, R1904, B1024)
+   |    |    |    |    |    |    |    |    | ['Custom32', '当前料号:Custom14']
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Custom - ''    (L1904, T234, R1915, B635)
+   |    |    |    |    |    |    | ['Custom33', '置顶功能Custom9']
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | ScrollBar - ''    (L1904, T234, R1915, B635)
+   |    |    |    |    |    |    |    | ['ScrollBar', '置顶功能ScrollBar']
+   |    |    |    |    |
+   |    |    |    |    | RadioButton - '制造端'    (L1739, T209, R1814, B232)
+   |    |    |    |    | ['制造端', 'RadioButton4', '制造端RadioButton']
+   |    |    |    |    | child_window(title="制造端", control_type="RadioButton")
+   |
+   | Static - ''    (L1640, T3, R1670, B33)
+   | ['Static54']
+   |
+   | Static - '推荐立享200元优惠券，后续功能将陆续上线，敬请试用。'    (L1649, T100, R1899, B120)
+   | ['Static55']
+   | child_window(title="推荐立享200元优惠券，后续功能将陆续上线，敬请试用。", control_type="Text")
+   |
+   | Static - '当前料号:'    (L1634, T659, R1748, B685)
+   | ['当前料号:Static2', 'Static56', '当前料号:']
+   | child_window(title="当前料号:", control_type="Text")
+   |
+   | Static - '当前厂规:'    (L1634, T633, R1748, B659)
+   | ['Static57', '当前厂规:Static4', '当前厂规:']
+   | child_window(title="当前厂规:", control_type="Text")
+   |
+   | Button - ''    (L1634, T685, R1700, B713)
+   | ['Button10', '当前料号:Button', '当前厂规:Button']
+   |
+   | Button - ''    (L1700, T685, R1766, B713)
+   | ['抢单Button', 'Button11']
+   |
+   | Button - ''    (L1766, T685, R1832, B713)
+   | ['Button12', '下单Button']
+   |
+   | Static - '陈成'    (L1714, T55, R1964, B76)
+   | ['陈成Static', '陈成', 'Static58', '陈成Static0', '陈成Static1']
+   | child_window(title="陈成", control_type="Text")
+   |
+   | Static - ''    (L1748, T659, R1894, B685)
+   | ['陈成Static2', '当前料号:Static3', 'Static59']
+   |
+   | Static - ''    (L1636, T688, R1658, B710)
+   | ['当前料号:Static4', 'Static60']
+   |
+   | Static - '抢单'    (L1664, T688, R1693, B710)
+   | ['抢单', 'Static61', '抢单Static8']
+   | child_window(title="抢单", control_type="Text")
+   |
+   | Static - ''    (L1702, T688, R1724, B710)
+   | ['Static62', '抢单Static9']
+   |
+   | Static - '下单'    (L1730, T688, R1759, B709)
+   | ['下单', '下单Static', 'Static63', '下单Static0', '下单Static1']
+   | child_window(title="下单", control_type="Text")
+   |
+   | Static - '反馈'    (L1796, T688, R1825, B709)
+   | ['反馈', '反馈Static', 'Static64', '反馈Static0', '反馈Static1']
+   | child_window(title="反馈", control_type="Text")
+   |
+   | Static - ''    (L1768, T688, R1790, B710)
+   | ['下单Static2', 'Static65']
+   |
+   | Button - ''    (L1854, T6, R1879, B31)
+   | ['Button13']
+   |
+   | Button - ''    (L1889, T6, R1914, B31)
+   | ['Button14']
+   |
+   | Edit - ''    (L1665, T125, R1920, B155)
+   | ['Edit']
+   |
+   | Static - ''    (L1748, T633, R1894, B659)
+   | ['Static66', '当前厂规:Static5']
+   |
+   | Image - ''    (L1652, T46, R1696, B90)
+   | ['Image']
+   |
+   | Button - ''    (L1832, T685, R1898, B713)
+   | ['Button15', '反馈Button']
+   |
+   | Static - '论坛'    (L1862, T688, R1891, B709)
+   | ['论坛Static', '论坛', 'Static67', '论坛Static0', '论坛Static1']
+   | child_window(title="论坛", control_type="Text")
+   |
+   | Static - ''    (L1834, T688, R1856, B710)
+   | ['反馈Static2', 'Static68']
+   |
+   | Static - ''    (L1898, T688, R1920, B710)
+   | ['论坛Static2', 'Static69']
+   |
+   | Static - ''    (L1894, T633, R1920, B659)
+   | ['Static70', '导入与预审Static3']
+   |
+   | Static - ''    (L1894, T633, R1920, B659)
+   | ['Static70', '导入与预审Static3']
+   |
+   | Static - ''    (L1894, T659, R1920, B685)
+   | ['Static72', '导入与预审Static5']
+   |
+   | Static - ''    (L1894, T659, R1920, B685)
+   | ['Static72', '导入与预审Static5']
+   |
+   | Static - ''    (L1634, T125, R1665, B155)
+   | ['新增阻抗计算工具，推荐立享200元优惠券，后续功能将陆续上线，敬请试用。Static', 'Static74', '新增阻抗计算工具，推荐立享200元优惠券，后续功能将陆续上线，敬请试用。Static0', '新增阻抗计算工具，推荐立享200元优惠券，后续功能将陆续上线，敬请试用。Static1']
+   |
+   | Static - ''    (L1644, T130, R1665, B150)
+   | ['新增阻抗计算工具，推荐立享200元优惠券，后续功能将陆续上线，敬请试用。Static2', 'Static75']
+   |
+   | Static - ''    (L1646, T40, R1702, B96)
+   | ['Static76']
+   |
+   | Static - ''    (L1654, T48, R1704, B98)
+   | ['Static77']
+   |
+   | Static - ''    (L1854, T48, R1904, B98)
+   | ['陈成Static3', 'Static78']
