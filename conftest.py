@@ -107,8 +107,8 @@ def capture_screenshots(case_name):
         image_dir = os.path.join(RunConfig.NEW_REPORT, "image", file_name)
         # RunConfig.driver.save_screenshot(image_dir)
         print("*"*30,"pic")
-        # top_window=epeda_driver.get_top_win()
-        # top_window.capture_as_image().save(image_dir)
+        top_window=epeda_driver.get_top_win()
+        top_window.capture_as_image().save(image_dir)
 
 def capture_screenshots_selenium(case_name):
     """

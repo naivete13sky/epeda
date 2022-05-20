@@ -1,0 +1,1 @@
+pytest -m 运行时，如果fail，生成报告会出错。通过python run_tests.py运行则不会出错。

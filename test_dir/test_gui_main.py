@@ -21,16 +21,7 @@ class TestGuiMain:
     def test_person(self):
         app = RunConfig.epeda_driver
         win = app.get_win('Dialog')
-        # print(top_module_drzl.print_control_identifiers())
-
-        # 导入资料
-        win['Custom9'].click_input()
-        win.child_window(title="陈成").click_input()  # 释放一下，加到主界面焦点
-        # print(win['Custom17'].print_control_identifiers())
-        assert Gui_main.get_top_module(win['Custom9']) == ['导入资料', '支持gerber、odb++、ipc2581、eps等多种格式资料导入']
-
-
-        win.child_window(title="陈成").click_input()  # 释放一下，加到主界面焦点
+        
 
 
     @pytest.mark.tool
