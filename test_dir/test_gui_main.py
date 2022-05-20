@@ -127,5 +127,7 @@ def test_input_pre_check():
     # print(win['Custom17'].print_control_identifiers())
     assert Gui_main.get_top_module(win['Custom17']) == ['导入资料', '支持gerber、odb++、ipc2581、eps等多种格式资料导入']
 
-
-
+    # 导入与预审下的前处理
+    win['Custom18'].click_input()
+    win.child_window(title="陈成").click_input()  # 释放一下，加到主界面焦点
+    assert Gui_main.get_top_module(win['Custom18']) == ['前处理', '图形资料报价和优化前的资料处理模块']

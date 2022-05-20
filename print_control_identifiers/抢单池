@@ -1,0 +1,517 @@
+Dialog - '抢单池'    (L349, T199, R1571, B775)
+['抢单池', '抢单池Dialog', 'Dialog']
+child_window(title="抢单池", control_type="Window")
+   |
+   | TitleBar - ''    (L384, T202, R1560, B244)
+   | ['TitleBar']
+   |    |
+   |    | Menu - '系统'    (L360, T210, R393, B243)
+   |    | ['Menu', '系统', '系统Menu', '系统0', '系统1']
+   |    | child_window(title="系统", auto_id="MenuBar", control_type="MenuBar")
+   |    |    |
+   |    |    | MenuItem - '系统'    (L360, T210, R393, B243)
+   |    |    | ['MenuItem', '系统2', '系统MenuItem']
+   |    |    | child_window(title="系统", control_type="MenuItem")
+   |    |
+   |    | Button - '最小化'    (L1349, T200, R1420, B244)
+   |    | ['Button', '最小化', '最小化Button', 'Button0', 'Button1']
+   |    | child_window(title="最小化", control_type="Button")
+   |    |
+   |    | Button - '最大化'    (L1420, T200, R1490, B244)
+   |    | ['Button2', '最大化Button', '最大化']
+   |    | child_window(title="最大化", control_type="Button")
+   |    |
+   |    | Button - '关闭'    (L1490, T200, R1561, B244)
+   |    | ['Button3', '关闭', '关闭Button']
+   |    | child_window(title="关闭", control_type="Button")
+   |
+   | Button - '刷新'    (L1140, T704, R1215, B739)
+   | ['Button4', '刷新', '刷新Button']
+   | child_window(title="刷新", control_type="Button")
+   |
+   | Static - '当前'    (L410, T704, R438, B739)
+   | ['Static', '当前', '当前Static', 'Static0', 'Static1']
+   | child_window(title="当前", control_type="Text")
+   |
+   | Button - '下一页'    (L1420, T704, R1495, B739)
+   | ['Button5', '下一页Button', '下一页']
+   | child_window(title="下一页", control_type="Button")
+   |
+   | Static - '条/页'    (L740, T704, R781, B739)
+   | ['条/页', 'Static2', '条/页Static']
+   | child_window(title="条/页", control_type="Text")
+   |
+   | Static - '页'    (L630, T704, R658, B739)
+   | ['页', 'Static3', '页Static', '页0', '页1', '页Static0', '页Static1']
+   | child_window(title="页", control_type="Text")
+   |
+   | Static - '1'    (L450, T704, R478, B739)
+   | ['Static4', '1Static', '1', '1Static0', '1Static1', '10', '11', '100', '101']
+   | child_window(title="1", control_type="Text")
+   |
+   | Static - '页'    (L480, T704, R508, B739)
+   | ['页2', 'Static5', '页Static2']
+   | child_window(title="页", control_type="Text")
+   |
+   | Static - '1'    (L600, T704, R628, B739)
+   | ['Static6', '1Static2', '12']
+   | child_window(title="1", control_type="Text")
+   |
+   | Edit - ''    (L710, T711, R735, B731)
+   | ['页Edit', 'Edit', '1Edit', 'Edit0', 'Edit1']
+   |
+   | Static - '共'    (L570, T704, R598, B739)
+   | ['Static7', '共Static', '共']
+   | child_window(title="共", control_type="Text")
+   |
+   | Button - '上一页'    (L1290, T704, R1365, B739)
+   | ['Button6', '上一页Button', '上一页']
+   | child_window(title="上一页", control_type="Button")
+   |
+   | Button - '查询'    (L1320, T284, R1395, B314)
+   | ['Button7', '查询Button', '查询']
+   | child_window(title="查询", control_type="Button")
+   |
+   | Button - '重置'    (L1430, T284, R1505, B314)
+   | ['Button8', '重置', '重置Button']
+   | child_window(title="重置", control_type="Button")
+   |
+   | Static - '价格：'    (L410, T284, R441, B314)
+   | ['价格：', 'Static8', '价格：Static']
+   | child_window(title="价格：", control_type="Text")
+   |
+   | Static - '预计制作时长：'    (L730, T284, R851, B314)
+   | ['Static9', '预计制作时长：Static', '预计制作时长：']
+   | child_window(title="预计制作时长：", control_type="Text")
+   |
+   | Static - '料号难度：'    (L1120, T284, R1181, B314)
+   | ['料号难度：', 'Static10', '料号难度：Static']
+   | child_window(title="料号难度：", control_type="Text")
+   |
+   | ComboBox - ' Down'    (L1200, T284, R1260, B314)
+   | ['ComboBox', ' DownComboBox', ' Down']
+   | child_window(title=" Down", control_type="ComboBox")
+   |    |
+   |    | ListBox - ''    (L0, T0, R0, B0)
+   |    | ['ListBox']
+   |    |    |
+   |    |    | ListItem - ''    (L0, T0, R640, B15)
+   |    |    | ['ListItem', 'ListItem0', 'ListItem1']
+   |    |    |
+   |    |    | ListItem - '1'    (L0, T15, R640, B30)
+   |    |    | ['1ListItem', 'ListItem2', '13', '130', '131']
+   |    |    | child_window(title="1", control_type="ListItem")
+   |    |    |
+   |    |    | ListItem - '2'    (L0, T30, R640, B45)
+   |    |    | ['2', 'ListItem3', '2ListItem', '20', '21']
+   |    |    | child_window(title="2", control_type="ListItem")
+   |    |    |
+   |    |    | ListItem - '3'    (L0, T45, R640, B60)
+   |    |    | ['3', 'ListItem4', '3ListItem', '30', '31']
+   |    |    | child_window(title="3", control_type="ListItem")
+   |    |    |
+   |    |    | ListItem - '4'    (L0, T60, R640, B75)
+   |    |    | ['ListItem5', '4', '4ListItem']
+   |    |    | child_window(title="4", control_type="ListItem")
+   |
+   | Edit - ''    (L460, T284, R573, B314)
+   | ['价格：Edit', 'Edit2']
+   |
+   | Edit - ''    (L590, T284, R703, B314)
+   | ['-Edit', 'Edit3', '-Edit0', '-Edit1']
+   |
+   | Static - '-'    (L580, T284, R590, B314)
+   | ['Static11', '-', '-Static', '-0', '-1', '-Static0', '-Static1']
+   | child_window(title="-", control_type="Text")
+   |
+   | Static - '-'    (L970, T284, R980, B314)
+   | ['Static12', '-2', '-Static2']
+   | child_window(title="-", control_type="Text")
+   |
+   | Table - ''    (L400, T354, R1527, B676)
+   | ['-Table', '价格：Table', 'Table']
+   |    |
+   |    | Pane - ''    (L0, T0, R0, B0)
+   |    | ['Pane']
+   |    |
+   |    | Header - '抢单订单号'    (L401, T355, R581, B395)
+   |    | ['Header', '抢单订单号Header', '抢单订单号', 'Header0', 'Header1']
+   |    | child_window(title="抢单订单号", control_type="Header")
+   |    |
+   |    | Header - '未完成工作稿'    (L581, T355, R761, B395)
+   |    | ['Header2', '未完成工作稿', '未完成工作稿Header']
+   |    | child_window(title="未完成工作稿", control_type="Header")
+   |    |
+   |    | Header - '制作时长(小时)'    (L761, T355, R881, B395)
+   |    | ['Header3', '制作时长(小时)Header', '制作时长(小时)']
+   |    | child_window(title="制作时长(小时)", control_type="Header")
+   |    |
+   |    | Header - '料号难度'    (L881, T355, R951, B395)
+   |    | ['Header4', '料号难度Header', '料号难度']
+   |    | child_window(title="料号难度", control_type="Header")
+   |    |
+   |    | Header - '价格'    (L951, T355, R1021, B395)
+   |    | ['Header5', '价格Header', '价格']
+   |    | child_window(title="价格", control_type="Header")
+   |    |
+   |    | Header - '押金价格'    (L1021, T355, R1106, B395)
+   |    | ['Header6', '押金价格', '押金价格Header']
+   |    | child_window(title="押金价格", control_type="Header")
+   |    |
+   |    | Header - '查看资料'    (L1106, T355, R1176, B395)
+   |    | ['Header7', '查看资料', '查看资料Header']
+   |    | child_window(title="查看资料", control_type="Header")
+   |    |
+   |    | Header - '查看需求'    (L1176, T355, R1246, B395)
+   |    | ['Header8', '查看需求', '查看需求Header']
+   |    | child_window(title="查看需求", control_type="Header")
+   |    |
+   |    | Header - '查看厂规'    (L1246, T355, R1316, B395)
+   |    | ['Header9', '查看厂规', '查看厂规Header']
+   |    | child_window(title="查看厂规", control_type="Header")
+   |    |
+   |    | Header - '查看客规'    (L1316, T355, R1386, B395)
+   |    | ['Header10', '查看客规', '查看客规Header']
+   |    | child_window(title="查看客规", control_type="Header")
+   |    |
+   |    | Header - '查看附件'    (L1386, T355, R1456, B395)
+   |    | ['Header11', '查看附件Header', '查看附件']
+   |    | child_window(title="查看附件", control_type="Header")
+   |    |
+   |    | Header - '确认接单'    (L1456, T355, R1526, B395)
+   |    | ['Header12', '确认接单', '确认接单Header']
+   |    | child_window(title="确认接单", control_type="Header")
+   |    |
+   |    | DataItem - '165294967131525141'    (L401, T395, R580, B429)
+   |    | ['DataItem', '165294967131525141', '165294967131525141DataItem', 'DataItem0', 'DataItem1']
+   |    | child_window(title="165294967131525141", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L581, T395, R760, B429)
+   |    | ['-DataItem', 'DataItem2', '-DataItem0', '-DataItem1']
+   |    |
+   |    | DataItem - '10'    (L761, T395, R880, B429)
+   |    | ['102', 'DataItem3', '10DataItem']
+   |    | child_window(title="10", control_type="DataItem")
+   |    |
+   |    | DataItem - '2'    (L881, T395, R950, B429)
+   |    | ['22', 'DataItem4', '2DataItem']
+   |    | child_window(title="2", control_type="DataItem")
+   |    |
+   |    | DataItem - '316'    (L951, T395, R1020, B429)
+   |    | ['316', 'DataItem5', '316DataItem']
+   |    | child_window(title="316", control_type="DataItem")
+   |    |
+   |    | DataItem - '0'    (L1021, T395, R1105, B429)
+   |    | ['0', '0DataItem', 'DataItem6', '00', '01', '0DataItem0', '0DataItem1']
+   |    | child_window(title="0", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L1106, T395, R1175, B429)
+   |    | ['料号难度：DataItem', 'DataItem7', '料号难度：DataItem0', '料号难度：DataItem1']
+   |    |
+   |    | DataItem - ''    (L1176, T395, R1245, B429)
+   |    | ['料号难度：DataItem2', 'DataItem8']
+   |    |
+   |    | DataItem - ''    (L1246, T395, R1315, B429)
+   |    | ['料号难度：DataItem3', 'DataItem9']
+   |    |
+   |    | DataItem - ''    (L1316, T395, R1385, B429)
+   |    | ['料号难度：DataItem4', 'DataItem10']
+   |    |
+   |    | DataItem - ''    (L1386, T395, R1455, B429)
+   |    | ['料号难度：DataItem5', 'DataItem11']
+   |    |
+   |    | DataItem - ''    (L1456, T395, R1525, B429)
+   |    | ['料号难度：DataItem6', 'DataItem12']
+   |    |
+   |    | DataItem - '165294556223310141'    (L401, T430, R580, B464)
+   |    | ['DataItem13', '165294556223310141DataItem', '165294556223310141']
+   |    | child_window(title="165294556223310141", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L581, T430, R760, B464)
+   |    | ['-DataItem2', 'DataItem14']
+   |    |
+   |    | DataItem - '13'    (L761, T430, R880, B464)
+   |    | ['132', '13DataItem', 'DataItem15', '13DataItem0', '13DataItem1']
+   |    | child_window(title="13", control_type="DataItem")
+   |    |
+   |    | DataItem - '3'    (L881, T430, R950, B464)
+   |    | ['DataItem16', '32', '3DataItem', '3DataItem0', '3DataItem1']
+   |    | child_window(title="3", control_type="DataItem")
+   |    |
+   |    | DataItem - '404'    (L951, T430, R1020, B464)
+   |    | ['DataItem17', '404', '404DataItem', '4040', '4041', '404DataItem0', '404DataItem1']
+   |    | child_window(title="404", control_type="DataItem")
+   |    |
+   |    | DataItem - '0'    (L1021, T430, R1105, B464)
+   |    | ['02', '0DataItem2', 'DataItem18']
+   |    | child_window(title="0", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L1106, T430, R1175, B464)
+   |    | ['料号难度：DataItem7', 'DataItem19']
+   |    |
+   |    | DataItem - ''    (L1176, T430, R1245, B464)
+   |    | ['料号难度：DataItem8', 'DataItem20']
+   |    |
+   |    | DataItem - ''    (L1246, T430, R1315, B464)
+   |    | ['料号难度：DataItem9', 'DataItem21']
+   |    |
+   |    | DataItem - ''    (L1316, T430, R1385, B464)
+   |    | ['料号难度：DataItem10', 'DataItem22']
+   |    |
+   |    | DataItem - ''    (L1386, T430, R1455, B464)
+   |    | ['料号难度：DataItem11', 'DataItem23']
+   |    |
+   |    | DataItem - ''    (L1456, T430, R1525, B464)
+   |    | ['料号难度：DataItem12', 'DataItem24']
+   |    |
+   |    | DataItem - '165294553605719141'    (L401, T465, R580, B499)
+   |    | ['DataItem25', '165294553605719141DataItem', '165294553605719141']
+   |    | child_window(title="165294553605719141", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L581, T465, R760, B499)
+   |    | ['-DataItem3', 'DataItem26']
+   |    |
+   |    | DataItem - '13'    (L761, T465, R880, B499)
+   |    | ['133', '13DataItem2', 'DataItem27']
+   |    | child_window(title="13", control_type="DataItem")
+   |    |
+   |    | DataItem - '3'    (L881, T465, R950, B499)
+   |    | ['DataItem28', '33', '3DataItem2']
+   |    | child_window(title="3", control_type="DataItem")
+   |    |
+   |    | DataItem - '404'    (L951, T465, R1020, B499)
+   |    | ['DataItem29', '4042', '404DataItem2']
+   |    | child_window(title="404", control_type="DataItem")
+   |    |
+   |    | DataItem - '0'    (L1021, T465, R1105, B499)
+   |    | ['03', '0DataItem3', 'DataItem30']
+   |    | child_window(title="0", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L1106, T465, R1175, B499)
+   |    | ['料号难度：DataItem13', 'DataItem31']
+   |    |
+   |    | DataItem - ''    (L1176, T465, R1245, B499)
+   |    | ['料号难度：DataItem14', 'DataItem32']
+   |    |
+   |    | DataItem - ''    (L1246, T465, R1315, B499)
+   |    | ['料号难度：DataItem15', 'DataItem33']
+   |    |
+   |    | DataItem - ''    (L1316, T465, R1385, B499)
+   |    | ['料号难度：DataItem16', 'DataItem34']
+   |    |
+   |    | DataItem - ''    (L1386, T465, R1455, B499)
+   |    | ['料号难度：DataItem17', 'DataItem35']
+   |    |
+   |    | DataItem - ''    (L1456, T465, R1525, B499)
+   |    | ['料号难度：DataItem18', 'DataItem36']
+   |    |
+   |    | DataItem - '165294546166482141'    (L401, T500, R580, B534)
+   |    | ['DataItem37', '165294546166482141DataItem', '165294546166482141']
+   |    | child_window(title="165294546166482141", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L581, T500, R760, B534)
+   |    | ['-DataItem4', 'DataItem38']
+   |    |
+   |    | DataItem - '13'    (L761, T500, R880, B534)
+   |    | ['134', '13DataItem3', 'DataItem39']
+   |    | child_window(title="13", control_type="DataItem")
+   |    |
+   |    | DataItem - '3'    (L881, T500, R950, B534)
+   |    | ['DataItem40', '34', '3DataItem3']
+   |    | child_window(title="3", control_type="DataItem")
+   |    |
+   |    | DataItem - '404'    (L951, T500, R1020, B534)
+   |    | ['DataItem41', '4043', '404DataItem3']
+   |    | child_window(title="404", control_type="DataItem")
+   |    |
+   |    | DataItem - '0'    (L1021, T500, R1105, B534)
+   |    | ['04', '0DataItem4', 'DataItem42']
+   |    | child_window(title="0", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L1106, T500, R1175, B534)
+   |    | ['料号难度：DataItem19', 'DataItem43']
+   |    |
+   |    | DataItem - ''    (L1176, T500, R1245, B534)
+   |    | ['料号难度：DataItem20', 'DataItem44']
+   |    |
+   |    | DataItem - ''    (L1246, T500, R1315, B534)
+   |    | ['料号难度：DataItem21', 'DataItem45']
+   |    |
+   |    | DataItem - ''    (L1316, T500, R1385, B534)
+   |    | ['料号难度：DataItem22', 'DataItem46']
+   |    |
+   |    | DataItem - ''    (L1386, T500, R1455, B534)
+   |    | ['料号难度：DataItem23', 'DataItem47']
+   |    |
+   |    | DataItem - ''    (L1456, T500, R1525, B534)
+   |    | ['料号难度：DataItem24', 'DataItem48']
+   |    |
+   |    | DataItem - '165294316971081141'    (L401, T535, R580, B569)
+   |    | ['165294316971081141', 'DataItem49', '165294316971081141DataItem']
+   |    | child_window(title="165294316971081141", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L581, T535, R760, B569)
+   |    | ['-DataItem5', 'DataItem50']
+   |    |
+   |    | DataItem - '13'    (L761, T535, R880, B569)
+   |    | ['135', '13DataItem4', 'DataItem51']
+   |    | child_window(title="13", control_type="DataItem")
+   |    |
+   |    | DataItem - '3'    (L881, T535, R950, B569)
+   |    | ['DataItem52', '35', '3DataItem4']
+   |    | child_window(title="3", control_type="DataItem")
+   |    |
+   |    | DataItem - '404'    (L951, T535, R1020, B569)
+   |    | ['DataItem53', '4044', '404DataItem4']
+   |    | child_window(title="404", control_type="DataItem")
+   |    |
+   |    | DataItem - '0'    (L1021, T535, R1105, B569)
+   |    | ['05', '0DataItem5', 'DataItem54']
+   |    | child_window(title="0", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L1106, T535, R1175, B569)
+   |    | ['料号难度：DataItem25', 'DataItem55']
+   |    |
+   |    | DataItem - ''    (L1176, T535, R1245, B569)
+   |    | ['料号难度：DataItem26', 'DataItem56']
+   |    |
+   |    | DataItem - ''    (L1246, T535, R1315, B569)
+   |    | ['料号难度：DataItem27', 'DataItem57']
+   |    |
+   |    | DataItem - ''    (L1316, T535, R1385, B569)
+   |    | ['料号难度：DataItem28', 'DataItem58']
+   |    |
+   |    | DataItem - ''    (L1386, T535, R1455, B569)
+   |    | ['料号难度：DataItem29', 'DataItem59']
+   |    |
+   |    | DataItem - ''    (L1456, T535, R1525, B569)
+   |    | ['料号难度：DataItem30', 'DataItem60']
+   |    |
+   |    | DataItem - '165294314064561141'    (L401, T570, R580, B604)
+   |    | ['165294314064561141', 'DataItem61', '165294314064561141DataItem']
+   |    | child_window(title="165294314064561141", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L581, T570, R760, B604)
+   |    | ['-DataItem6', 'DataItem62']
+   |    |
+   |    | DataItem - '13'    (L761, T570, R880, B604)
+   |    | ['136', '13DataItem5', 'DataItem63']
+   |    | child_window(title="13", control_type="DataItem")
+   |    |
+   |    | DataItem - '3'    (L881, T570, R950, B604)
+   |    | ['DataItem64', '36', '3DataItem5']
+   |    | child_window(title="3", control_type="DataItem")
+   |    |
+   |    | DataItem - '404'    (L951, T570, R1020, B604)
+   |    | ['DataItem65', '4045', '404DataItem5']
+   |    | child_window(title="404", control_type="DataItem")
+   |    |
+   |    | DataItem - '0'    (L1021, T570, R1105, B604)
+   |    | ['06', '0DataItem6', 'DataItem66']
+   |    | child_window(title="0", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L1106, T570, R1175, B604)
+   |    | ['料号难度：DataItem31', 'DataItem67']
+   |    |
+   |    | DataItem - ''    (L1176, T570, R1245, B604)
+   |    | ['料号难度：DataItem32', 'DataItem68']
+   |    |
+   |    | DataItem - ''    (L1246, T570, R1315, B604)
+   |    | ['料号难度：DataItem33', 'DataItem69']
+   |    |
+   |    | DataItem - ''    (L1316, T570, R1385, B604)
+   |    | ['料号难度：DataItem34', 'DataItem70']
+   |    |
+   |    | DataItem - ''    (L1386, T570, R1455, B604)
+   |    | ['料号难度：DataItem35', 'DataItem71']
+   |    |
+   |    | DataItem - ''    (L1456, T570, R1525, B604)
+   |    | ['料号难度：DataItem36', 'DataItem72']
+   |    |
+   |    | DataItem - '165294311668750141'    (L401, T605, R580, B639)
+   |    | ['165294311668750141', 'DataItem73', '165294311668750141DataItem']
+   |    | child_window(title="165294311668750141", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L581, T605, R760, B639)
+   |    | ['-DataItem7', 'DataItem74']
+   |    |
+   |    | DataItem - '13'    (L761, T605, R880, B639)
+   |    | ['137', '13DataItem6', 'DataItem75']
+   |    | child_window(title="13", control_type="DataItem")
+   |    |
+   |    | DataItem - '3'    (L881, T605, R950, B639)
+   |    | ['DataItem76', '37', '3DataItem6']
+   |    | child_window(title="3", control_type="DataItem")
+   |    |
+   |    | DataItem - '404'    (L951, T605, R1020, B639)
+   |    | ['DataItem77', '4046', '404DataItem6']
+   |    | child_window(title="404", control_type="DataItem")
+   |    |
+   |    | DataItem - '0'    (L1021, T605, R1105, B639)
+   |    | ['07', '0DataItem7', 'DataItem78']
+   |    | child_window(title="0", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L1106, T605, R1175, B639)
+   |    | ['料号难度：DataItem37', 'DataItem79']
+   |    |
+   |    | DataItem - ''    (L1176, T605, R1245, B639)
+   |    | ['料号难度：DataItem38', 'DataItem80']
+   |    |
+   |    | DataItem - ''    (L1246, T605, R1315, B639)
+   |    | ['料号难度：DataItem39', 'DataItem81']
+   |    |
+   |    | DataItem - ''    (L1316, T605, R1385, B639)
+   |    | ['料号难度：DataItem40', 'DataItem82']
+   |    |
+   |    | DataItem - ''    (L1386, T605, R1455, B639)
+   |    | ['料号难度：DataItem41', 'DataItem83']
+   |    |
+   |    | DataItem - ''    (L1456, T605, R1525, B639)
+   |    | ['料号难度：DataItem42', 'DataItem84']
+   |    |
+   |    | DataItem - '165294309757527141'    (L401, T640, R580, B674)
+   |    | ['165294309757527141', '165294309757527141DataItem', 'DataItem85']
+   |    | child_window(title="165294309757527141", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L581, T640, R760, B674)
+   |    | ['-DataItem8', 'DataItem86']
+   |    |
+   |    | DataItem - '13'    (L761, T640, R880, B674)
+   |    | ['138', '13DataItem7', 'DataItem87']
+   |    | child_window(title="13", control_type="DataItem")
+   |    |
+   |    | DataItem - '3'    (L881, T640, R950, B674)
+   |    | ['DataItem88', '38', '3DataItem7']
+   |    | child_window(title="3", control_type="DataItem")
+   |    |
+   |    | DataItem - '404'    (L951, T640, R1020, B674)
+   |    | ['DataItem89', '4047', '404DataItem7']
+   |    | child_window(title="404", control_type="DataItem")
+   |    |
+   |    | DataItem - '0'    (L1021, T640, R1105, B674)
+   |    | ['08', '0DataItem8', 'DataItem90']
+   |    | child_window(title="0", control_type="DataItem")
+   |    |
+   |    | DataItem - ''    (L1106, T640, R1175, B674)
+   |    | ['料号难度：DataItem43', 'DataItem91']
+   |    |
+   |    | DataItem - ''    (L1176, T640, R1245, B674)
+   |    | ['料号难度：DataItem44', 'DataItem92']
+   |    |
+   |    | DataItem - ''    (L1246, T640, R1315, B674)
+   |    | ['料号难度：DataItem45', 'DataItem93']
+   |    |
+   |    | DataItem - ''    (L1316, T640, R1385, B674)
+   |    | ['料号难度：DataItem46', 'DataItem94']
+   |    |
+   |    | DataItem - ''    (L1386, T640, R1455, B674)
+   |    | ['料号难度：DataItem47', 'DataItem95']
+   |    |
+   |    | DataItem - ''    (L1456, T640, R1525, B674)
+   |    | ['料号难度：DataItem48', 'DataItem96']
+   |
+   | Edit - ''    (L850, T284, R963, B314)
+   | ['预计制作时长：Edit', 'Edit4']
+   |
+   | Edit - ''    (L990, T284, R1103, B314)
+   | ['-Edit2', 'Edit5']

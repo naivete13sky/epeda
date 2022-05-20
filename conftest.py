@@ -262,6 +262,14 @@ def epeda_close():
 
     # win = app.get_top_win()
 
+def pytest_configure(config):
+    mark_list=["input","buy_order","process_order"]
+    for markers in mark_list:
+        config.addinivalue_line(
+            "markers",markers
+        )
+
+
 
 if __name__ == "__main__":
     capture_screenshots("test_dir/test_baidu_search.test_search_python.png")
