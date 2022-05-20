@@ -263,7 +263,7 @@ def epeda_close():
     # win = app.get_top_win()
 
 def pytest_configure(config):
-    mark_list=['gui','gui_main',"input","buy_order","process_order",'tool','top','pre_check']
+    mark_list=['gui','gui_main',"input","buy_order","process_order",'tool','top','pre_check','person']
     for markers in mark_list:
         config.addinivalue_line(
             "markers",markers

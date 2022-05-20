@@ -20,3 +20,8 @@ if result is True:
 else:
     cv2.imwrite("result.jpg",difference)
     print("两张图不一样")
+
+img = cv2.imread(file1)
+img_cut = img[0:100, 0:300]
+cv2.imwrite("linsi.jpg", img_cut)
+cv2.waitKey(0)
